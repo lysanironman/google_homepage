@@ -9,11 +9,9 @@
 }
 #header {
     font-size: 11pt;
-    word-spacing: 5px;
 }
 #hLeft {
  margin:5px 0 -5px 5px;
- word-spacing: 5px;
 }
 #hRight {
     text-align: right;
