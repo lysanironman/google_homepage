@@ -9,14 +9,14 @@
 }
 #header {
     font-size: 11pt;
-    word-spacing: 3px;
+    word-spacing: 5px;
 }
 #hLeft {
  margin:5px 0 -5px 5px;
- word-spacing: 3px;
+ word-spacing: 5px;
 }
 #hRight {
-    float: right;
+    text-align: right;
     margin-top: -10px;
     margin-right: 5px;
 }
@@ -42,4 +42,8 @@ input[type="submit"] {
     color: rgb(95, 89, 89);
     margin: 15px 5px 10px 5px;
 }
+span {
+
+}
+
 
