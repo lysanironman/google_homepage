@@ -2,46 +2,13 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Helvetica;
 }
-#projectPage {
-    margin: 0 auto;  
-}
-#header {
-    font-size: 11pt;
-}
-#hLeft {
- margin:5px 0 -5px 5px;
-}
-#hRight {
-    text-align: right;
-    margin-top: -10px;
-    margin-right: 5px;
-}
-#logo_container {
-    text-align: center;
-    margin-top: 100px;
-}
-input[type="text"] {
-    width: 500px;
-    height: 20px;
-    margin: 10px;
-    padding: 10px;
-    border: solid 1px #ccc;
-    border-radius:30px;
-    font-family: Helvetica;
-    font-size: 14pt;
-    }
-input[type="submit"] {
-    height: 40px;
-    width: 140px;
-    border: none 1px lightgray;
-    border-radius: 5px;
-    color: rgb(95, 89, 89);
-    margin: 15px 5px 10px 5px;
-}
-span {
-
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
 }
 
-
+h1#logo {
+    background: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png") top left no-repeat;
+    background-size: 100%;
+}
