@@ -7,8 +7,85 @@ body {
     font-family: Arial, sans-serif;
     font-size: 13px;
 }
-
+#container {
+    margin: 110px auto;
+    width: 580px;
+   text-align: center;
+}
 h1#logo {
     background: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png") top left no-repeat;
     background-size: 100%;
+    height: 95px;
+    width: 269px;
+    text-indent: -9999px;
+    margin: 0 auto;
+}
+input[type="text"] {
+    width: 566px;
+    padding: 12px 30px 12px 20px;
+    margin: 25px 0 10px 0;
+    border: solid 1px #ccc;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border-radius: 25px;
+}
+input[type="text"]:hover {
+    border-color: rgb(172, 101, 101);
+}
+input[type="submit"] {
+    margin: 15px 4px 20px 4px;
+    padding: 10px 15px 10px 15px;
+    border: solid 1px transparent;
+    border-radius: 2px;
+    color: rgb(99, 96, 96);
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+input[type="submit"]:hover {
+    border-color: #aaa;
+    cursor: pointer;
+}
+nav#header {
+    text-align: right;
+    padding: 20px;
+ }
+nav#header ul li {
+    display: inline;
+    padding: 0px 4px 0px 4px;
+}
+nav#header ul li a:link,
+nav#header ul li a:visited,
+footer nav ul li a:link,
+footer nav ul li a:visited {
+    color: #555;
+    text-decoration: none;
+}
+nav#header ul li a:hover,
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+footer {
+    background: #eee;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer nav {
+    padding: 20px;
+}
+footer nav ul li {
+    display: inline;
+    padding: 0px 4px 0px 4px;
+}
+footer nav ul,nav#header ul {
+    float: left;
+    padding-bottom:10px;
+}
+footer ul.rightLinks, nav#header ul.headerRight {
+    float: right;
+}
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
 }
